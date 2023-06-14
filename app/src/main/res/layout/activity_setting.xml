@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingActivity">
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/appBarLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="36dp"
+      android:background="@color/green02"
+      android:elevation="0dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+      <ImageView
+          android:id="@+id/ic_back"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="start|center"
+          android:contentDescription="@string/Back"
+          android:src="@drawable/baseline_arrow_back_ios_24" />
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:text="@string/Setting"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+      </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/appBarLayout">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_About"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangle_setting"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:text="@string/AboutUs"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Contact"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangle_setting"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:text="@string/ContactUs"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Privacy"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangle_setting"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:text="@string/PrivacyPolicy"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Term"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangle_setting"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:text="@string/TermsofService"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
