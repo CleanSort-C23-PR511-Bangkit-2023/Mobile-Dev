@@ -23,5 +23,24 @@ Requirements
   <a href="https://www.figma.com/file/iBdKm62TXnViVrIQLzq99L/CleanSort?type=design&node-id=0-1&t=9LNztR4GbWJyuIBd-0">CleanSort Design</a>
 </p>
 
+<h2>Presentasi Demo</h2>
+<p align="center">
+  <a href="https://youtu.be/ieC6GyxAALk">Presentasi Demo Aplikasi</a>
+</p>
+
+<h2>Android APK File</h2>
+<p align="center">
+  <a href="https://drive.google.com/file/d/1dvCRXnUEK0up2srnNB-HmLbFvy9HUJBP/view?usp=sharing">Aplikasi Android</a>
+</p>
+
+<h2>API Documentation</h2>
+<p align="center">
+  <a href="https://cc-api-irp3aqpiba-et.a.run.app/docs">API Documentation</a>
+</p>
+
+<h2>Model ML</h2>
+<p align="center">
+  <a href="https://colab.research.google.com/drive/1IF4HW5IgyI8xw__OHa9cvugVOvC6t_VU?usp=sharing#scrollTo=6Y4lC72mvu2Z">Model ML</a>
+</p>
 
   
