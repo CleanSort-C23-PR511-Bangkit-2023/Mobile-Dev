@@ -10,5 +10,9 @@ Programming languages and libraries or other tools that we used as follows:
 - Android libraries
 
 <h2>UI/UX Design</h2>
-[UIUXDesign](https://www.figma.com/file/iBdKm62TXnViVrIQLzq99L/CleanSort?type=design&node-id=0-1&t=9LNztR4GbWJyuIBd-0)
+<p align="center">
+  <a href="https://www.figma.com/file/iBdKm62TXnViVrIQLzq99L/CleanSort?type=design&node-id=0-1&t=9LNztR4GbWJyuIBd-0">CleanSort Design</a>
+</p>
+
+
   
