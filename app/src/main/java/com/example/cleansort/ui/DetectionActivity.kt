@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cleansort.databinding.ActivityDetectionBinding
+import com.example.cleansort.ui.Camera.CameraActivity
 
 class DetectionActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetectionBinding
@@ -13,10 +14,6 @@ class DetectionActivity : AppCompatActivity() {
         binding = ActivityDetectionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setActionBtn()
-    }
-
-    private fun setActionBtn(){
         binding.icBack.setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
         }

@@ -1,4 +1,4 @@
-package com.example.cleansort.ui
+package com.example.cleansort.ui.Setting
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

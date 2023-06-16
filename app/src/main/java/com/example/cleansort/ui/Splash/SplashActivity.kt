@@ -1,10 +1,11 @@
-package com.example.cleansort.ui
+package com.example.cleansort.ui.Splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.cleansort.R
+import com.example.cleansort.ui.LoginActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

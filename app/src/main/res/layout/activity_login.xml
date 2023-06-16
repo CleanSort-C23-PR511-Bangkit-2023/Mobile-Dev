@@ -60,6 +60,7 @@
             android:layout_height="50dp"
             android:background="@drawable/column"
             android:hint="@string/InpUser"
+            android:inputType="text"
             style="@style/Widget.Design.TextInputLayout"
             android:layout_marginTop="10dp"
             android:paddingStart="10dp"
@@ -83,11 +84,14 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_txtL"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleDrawable="@drawable/baseline_remove_red_eye_24"
             android:layout_width="310dp"
             android:layout_height="50dp"
             android:background="@drawable/column"
             android:hint="@string/InpPass"
             style="@style/Widget.Design.TextInputLayout"
+            android:inputType="textPassword"
             android:layout_marginTop="10dp"
             android:paddingStart="10dp"
             android:paddingEnd="12dp"

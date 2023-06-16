@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cleansort.databinding.ActivityHomeBinding
+import com.example.cleansort.ui.Setting.SettingActivity
 
 
 class HomeActivity : AppCompatActivity() {

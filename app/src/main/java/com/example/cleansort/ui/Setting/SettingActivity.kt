@@ -1,9 +1,10 @@
-package com.example.cleansort.ui
+package com.example.cleansort.ui.Setting
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cleansort.databinding.ActivitySettingBinding
+import com.example.cleansort.ui.HomeActivity
 
 class SettingActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySettingBinding

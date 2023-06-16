@@ -1,16 +1,16 @@
-package com.example.cleansort.ui
+package com.example.cleansort.ui.Setting
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.cleansort.databinding.ActivityAboutUsBinding
+import com.example.cleansort.databinding.ActivityTermBinding
 
-class AboutUsActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityAboutUsBinding
+class TermActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityTermBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityAboutUsBinding.inflate(layoutInflater)
+        binding = ActivityTermBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setActionBtn()
@@ -21,5 +21,4 @@ class AboutUsActivity : AppCompatActivity() {
             startActivity(Intent(this, SettingActivity::class.java))
         }
     }
-
 }
